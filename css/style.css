@@ -68,3 +68,31 @@ header {
 .hiden {
     display: none;
 }
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-item {
+    padding-left: 40px;
+}
+.navUp{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.navUp:hover {
+transform: translateY(-5px);
+}
+#circl {
+    display: none;
+    top: 50% ;
+    left: 50% ;
+    background: rgb(154, 154, 154);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    background: radial-gradient(circle at 35px 35px, #ff0202, rgb(250, 210, 210));
+    position: absolute;
+    z-index: 10;
+}

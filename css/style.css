@@ -1,0 +1,70 @@
+
+#rectangle {
+    height : 500px;
+    background : rgba(227, 222, 255, 0.551);
+   position: relative;
+   
+}
+.shadowCard {
+    cursor:url('../img/record.png'), auto;
+    background-color: red;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 100px -10px #9591ff;
+   
+}
+.colorfacebook {
+    color: rgb(13, 13, 186);
+    font-size: 25px;
+}
+.colorinstagram {
+    color: rgb(214, 28, 3);
+    font-size: 25px;
+}
+.colortwitter {
+    color: rgb(0, 138, 218);
+    font-size: 25px;
+}
+footer {
+    background-color: rgb(4, 4, 61);
+}
+.colorbdf {
+     border-top: 1px solid #7e8181;
+}
+.pdgLogo {
+     padding-right: 10px;
+}
+.pdgLogo2 {
+     padding-left: 10px;
+}
+
+.taille {
+    width: 100px;
+}
+
+#circle {
+    display: none;
+    top: 50% ;
+    left: 50% ;
+    background: rgb(154, 154, 154);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background: radial-gradient(circle at 35px 35px, #969595, rgb(30, 30, 30));
+    position: absolute;
+    z-index: 10;
+}
+body {
+    background-image: url(../img/téléchargement.jpg);
+    background-size: cover;
+}
+header {
+    background: rgb(4, 4, 61);
+}
+.tla {
+    color: white;
+}
+.hiden {
+    display: none;
+}
